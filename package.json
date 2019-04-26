@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node 01_basics/src/index.js"
+    "start": "nodemon 01_basics/src/index.js --exec babel-node"
   },
   "license": "MIT",
   "private": true,
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "graphql-yoga": "^1.17.4"
+    "graphql-yoga": "^1.17.4"  
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
   }
 }
