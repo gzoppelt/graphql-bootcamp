@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon 01_basics/src/index.js --exec babel-node"
+    "start": "nodemon 01_basics/src/index.js --ext js,graphql --exec babel-node"
   },
   "license": "MIT",
   "private": true,
